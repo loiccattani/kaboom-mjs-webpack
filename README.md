@@ -1,8 +1,20 @@
 # kaboom-mjs-webpack
 
-A ready to fork Kaboom project boilerplate with ES6 modules, webpack and a dynamic scene loader.
+A ready to fork Kaboom project boilerplate with ES6 modules, webpack.
 
 Some CSS styles applied to center the canvas on screen both horizontally and vertically at native resolution (will shrink to fit).
+
+## Build for deployment
+
+### Install dev dependencies (webpack)
+
+    npm install
+
+### Build
+
+    npm run build
+
+`dist` will contain the code ready for deployment
 
 ## Download or update local Kaboom (for use when network is not available)
 

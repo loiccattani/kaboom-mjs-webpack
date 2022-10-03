@@ -1,9 +1,10 @@
 /*
     Import Kaboom as an ES Module. Either from unpkg or from a local copy
     See `readme.md` on how to download/update local files
+    A local copy is required to build the project with webpack
 */
-import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
-// import kaboom from "./vendor/kaboom.mjs";
+//import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
+import kaboom from "../vendor/kaboom.mjs";
 
 import * as start from "./scenes/start.js";
 

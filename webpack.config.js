@@ -7,7 +7,6 @@ const HtmlWebpackTagsPlugin = require('html-webpack-tags-plugin');
 
 module.exports = {
     // Doc: https://webpack.js.org/configuration/#options
-    mode: 'development',
     entry: './js/main.js',
     devtool: 'source-map',
     devServer: {

@@ -19,3 +19,11 @@ Serve the project, watch files for change and live reload.
     npm run build
 
 `dist` will contain the code ready for deployment
+
+## Where is the index.html ?
+
+Webpack's HtmlWebpackPlugin will generate the index.html file and link all js bundles and CSS files.
+
+More info:
+- https://github.com/jantimon/html-webpack-plugin
+- https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin
